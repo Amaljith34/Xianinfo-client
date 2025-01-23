@@ -1,7 +1,9 @@
-import api from './config';
+import api from './Config';
 
 export const fetchVideos = async () => {
   const response = await api.get('/vedio');
+  console.log(response);
+  
   return response.data;
 };
 

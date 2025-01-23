@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
-import { fetchVideos } from "../../api/vedios"; 
-import { VideoCard } from "../../card/vedioCard";
-import VedioNavbar from "../../component/navbar/VedioNavbar";
+import { fetchVideos } from "../../api/Videos"; 
+import { VideoCard } from "../../card/VideoCard";
+import VedioNavbar from "../../component/navbar/VideoNavbar";
 
 export function VideosPage() {
   const [videos, setVideos] = useState([]);
@@ -33,7 +33,6 @@ export function VideosPage() {
 
   const handleAddToWishlist = (video) => {
     console.log("Added to Wishlist:", video);
-    // Add your logic to handle the wishlist functionality here
   };
 
   if (loading) {

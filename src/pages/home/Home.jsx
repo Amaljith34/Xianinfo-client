@@ -40,7 +40,7 @@ export default function HomePage() {
 
             <div className="relative">
               <img 
-                src={`src/assets/img1.jpg`}
+                src={`src/assets/img1.jpeg`}
                 alt="People collaborating"
                 className="rounded-lg shadow-xl w-full"
               />

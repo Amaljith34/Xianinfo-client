@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import api from '../../api/config';
+import api from '../../api/Config.jsx';
 import { useAuth } from '../../context/AuthContext.jsx';
 import toast from 'react-hot-toast';
 
